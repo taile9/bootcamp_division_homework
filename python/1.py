@@ -4,10 +4,8 @@
 """
 
 def main():
-    a=int(input())
-    b=str(a)
-    print(b[::-1])
-
+    # 이곳에 코드를 작성해주세요!
+    print(input()[::-1])
     return
 
 
