@@ -4,7 +4,11 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    a=int(input())
+    if a>=61 :
+        print('DISCOUNT BOARD')
+    elif 0<=a<=60 :
+        print('BOARD')
 
     return
 
