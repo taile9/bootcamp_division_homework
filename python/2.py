@@ -6,7 +6,8 @@
 def main():
     a=int(input())
     if a>=61 :
-        print('DISCOUNT BOARD')
+        print('DISCOUNT')
+        print('BOARD')
     elif 0<=a<=60 :
         print('BOARD')
 
