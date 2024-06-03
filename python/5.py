@@ -4,7 +4,13 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    a=int(input())
+    b=int(input())
+
+    if a>=14 or b>=160 :
+        print('X')
+    elif a<14 and b<160 :
+        print('O')
 
     return
 

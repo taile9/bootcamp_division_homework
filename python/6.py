@@ -4,7 +4,11 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    a=input()
+    if a=='a' or a=='e' or a=='i' or a=='o' or a=='u' :
+        print('O')
+    else :
+        print('X')
 
     return
 

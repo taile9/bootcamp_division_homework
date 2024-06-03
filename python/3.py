@@ -4,7 +4,11 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    a=int(input())
+    if 23>=a>=12 :
+        print('PM')
+    elif 0<=a<12 :
+        print('AM')
 
     return
 
