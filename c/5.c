@@ -6,7 +6,14 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int h,a;
+    scanf("%d %d",&a,&h);
+    if (a>=14 || h>=160){
+        printf("X");
+    }
+    else {
+        printf("O");
+    }
 
     return 0;
 }

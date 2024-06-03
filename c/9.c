@@ -6,7 +6,20 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int n=0,i=0,sum=0;
+    while(1){
+        scanf("%d",&n);
+        if (n>0){
+            break;
+        }
+        else if (n<=0){
+            printf("X\n");
+        }
+    }
+    for(i=1;i<=n;i++){
+        sum+=i;
+    }
+    printf("%d",sum);
 
     return 0;
 }

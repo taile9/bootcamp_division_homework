@@ -6,7 +6,14 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    char bet;
+    scanf("%c",&bet);
+    if (bet=='a' || bet=='e' || bet=='i' || bet=='o' || bet=='u'){
+        printf("O");
+    }
+    else {
+        printf("X");
+    }
 
     return 0;
 }

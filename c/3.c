@@ -6,7 +6,15 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int tive;
+    scanf("%d",&tive);
+    if (tive>=12){
+        printf("PM");
+    }
+    else if (tive<12){
+        printf("AM");
+    }
+
 
     return 0;
 }

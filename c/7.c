@@ -6,7 +6,25 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int year,month;
+    scanf("%d %d",&year,&month);
+    if (month==4 || month==6 || month==9 || month==11){
+        printf("%d",30);
+    }
+    else if (month==2){
+        if (year%4==0 && year%4!=0){
+            printf("%d",29);
+        }
+        else if (year%400==0){
+            printf("%d",29);
+        }
+        else{
+            printf("%d",28);
+        }
+    }
+    else {
+        printf("%d",31);
+    }
 
     return 0;
 }
