@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int grade;
     scanf("%d",&grade);
     if (90<=grade && grade<=100){

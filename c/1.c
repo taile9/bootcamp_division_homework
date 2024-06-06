@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,one=0,two=0,three=0;
+    int a ,b,one=0,two=0,three=0;
     scanf("%d",&a);
     one=a/100;
     a=a-one*100;

@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int n=0,i=0,sum=0;
     while(1){
         scanf("%d",&n);

@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     char bet;
     scanf("%c",&bet);
     if (bet=='a' || bet=='e' || bet=='i' || bet=='o' || bet=='u'){

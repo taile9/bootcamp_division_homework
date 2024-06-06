@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int tive;
     scanf("%d",&tive);
     if (tive>=12){

@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int num,sum=0,mul=1;
     scanf("%d",&num);
     for (int i=1;i<=num;i++){

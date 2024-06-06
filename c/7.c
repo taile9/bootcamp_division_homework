@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int year,month;
     scanf("%d %d",&year,&month);
     if (month==4 || month==6 || month==9 || month==11){

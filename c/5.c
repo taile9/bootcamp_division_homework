@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int h,a;
     scanf("%d %d",&a,&h);
     if (a>=14 || h>=160){
